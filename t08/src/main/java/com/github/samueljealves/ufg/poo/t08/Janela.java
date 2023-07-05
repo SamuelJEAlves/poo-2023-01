@@ -2,9 +2,10 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Janela {
-    public ArrayList<ElementoInteracao> elementoInteracoes;
+    public List<ElementoInteracao> elementoInteracoes;
 
     public Janela() {
         this.elementoInteracoes = new ArrayList<ElementoInteracao>();

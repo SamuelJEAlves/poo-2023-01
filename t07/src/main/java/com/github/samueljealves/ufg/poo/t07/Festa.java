@@ -1,11 +1,12 @@
 package com.github.samueljealves.ufg.poo.t07;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.TreeSet;
 
 public class Festa {
 
-    private ArrayList <Convidado> convidados;
+    private List<Convidado> convidados;
 
     public Festa() {
         this.convidados = new ArrayList<Convidado>();

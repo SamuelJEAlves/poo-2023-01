@@ -1,10 +1,11 @@
 package com.github.samueljealves.ufg.poo.t09;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CaixeiroViajante {
 
-    private ArrayList<Viagem> viagens;
+    private List<Viagem> viagens;
 
     public CaixeiroViajante() {
         viagens = new ArrayList<Viagem>();
@@ -14,7 +15,7 @@ public class CaixeiroViajante {
         viagens.add(viagem);
     }
 
-    public ArrayList<Viagem> getViagens() {
+    public List<Viagem> getViagens() {
         return viagens;
     }
 

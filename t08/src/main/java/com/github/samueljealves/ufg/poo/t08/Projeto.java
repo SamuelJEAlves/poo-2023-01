@@ -2,11 +2,12 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Projeto {
 
-    public ArrayList<Pessoa> pessoas;
-    public ArrayList<Linguagem> linguagens;
+    public List<Pessoa> pessoas;
+    public List<Linguagem> linguagens;
     private String name;
 
     public Projeto(String name) {
@@ -26,7 +27,7 @@ public class Projeto {
     public void adicionarPessoa(Pessoa pessoa){
         pessoas.add(pessoa);
     }
-    public ArrayList<Pessoa> getPessoas() {
+    public List<Pessoa> getPessoas() {
         return pessoas;
     }
 
@@ -34,7 +35,7 @@ public class Projeto {
         linguagens.add(linguagem);
     }
 
-    public ArrayList<Linguagem> getLinguagens() {
+    public List<Linguagem> getLinguagens() {
         return linguagens;
     }
 }

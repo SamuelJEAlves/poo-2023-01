@@ -2,13 +2,14 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Usuario {
 
     private String nome;
     private Grupo grupo;
 
-    private ArrayList<Diretorio> diretorios;
+    private List<Diretorio> diretorios;
 
     public Usuario(String nome, Grupo grupo) {
         this.nome = nome;
@@ -40,7 +41,7 @@ public class Usuario {
         diretorios.remove(diretorio);
     }
 
-    public ArrayList<Diretorio> getDiretorios() {
+    public List<Diretorio> getDiretorios() {
         return diretorios;
     }
 }

@@ -1,11 +1,12 @@
 package com.github.samueljealves.ufg.poo.t09;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Viagem {
 
-    private ArrayList<String> cidades;
-    private ArrayList<Pedido> pedidos;
+    private List<String> cidades;
+    private List<Pedido> pedidos;
 
     public Viagem(ArrayList<String> cidades) {
         this.cidades = cidades;
@@ -18,11 +19,11 @@ public class Viagem {
         pedidos.add(pedido);
     }
 
-    public ArrayList<String> getCidades() {
+    public List<String> getCidades() {
         return cidades;
     }
 
-    public ArrayList<Pedido> getPedidos() {
+    public List<Pedido> getPedidos() {
         return pedidos;
     }
 }

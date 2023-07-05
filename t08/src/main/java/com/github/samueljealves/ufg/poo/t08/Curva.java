@@ -2,10 +2,11 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Curva {
 
-    public ArrayList<Ponto> pontos;
+    public List<Ponto> pontos;
 
     public Curva() {
         this.pontos = new ArrayList<Ponto>();
@@ -15,7 +16,7 @@ public class Curva {
         pontos.add(ponto);
     }
 
-    public ArrayList<Ponto> getPontos() {
+    public List<Ponto> getPontos() {
         return pontos;
     }
 

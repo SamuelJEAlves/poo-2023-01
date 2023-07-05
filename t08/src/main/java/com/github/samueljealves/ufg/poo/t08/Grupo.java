@@ -2,12 +2,13 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Grupo {
 
-    public ArrayList<Permissao> permissoes;
+    public List<Permissao> permissoes;
     private String nome;
-    public ArrayList<Usuario> usuarios;
+    public List<Usuario> usuarios;
 
     public Grupo(String nome) {
         this.permissoes = new ArrayList<Permissao>();
@@ -23,7 +24,7 @@ public class Grupo {
         permissoes.add(permissao);
     }
 
-    public ArrayList<Permissao> getPermissoes() {
+    public List<Permissao> getPermissoes() {
         return permissoes;
     }
 
@@ -43,7 +44,7 @@ public class Grupo {
         usuarios.remove(usuario);
     }
 
-    public ArrayList<Usuario> getUsuarios() {
+    public List<Usuario> getUsuarios() {
         return usuarios;
     }
 

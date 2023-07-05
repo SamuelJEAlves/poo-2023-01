@@ -2,16 +2,17 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Pessoa {
 
     public String nome;
 
-    public ArrayList<Projeto> projetos;
+    public List<Projeto> projetos;
 
-    public ArrayList<Emprego> empregos;
+    public List<Emprego> empregos;
 
-    public ArrayList<Permissao> permissoes;
+    public List<Permissao> permissoes;
 
     public Pessoa(String nome) {
         this.empregos = new ArrayList<Emprego>();
@@ -51,15 +52,15 @@ public class Pessoa {
         permissoes.add(permissao);
     }
 
-    public ArrayList<Projeto> getProjetos() {
+    public List<Projeto> getProjetos() {
         return projetos;
     }
 
-    public ArrayList<Emprego> getEmpregos() {
+    public List<Emprego> getEmpregos() {
         return empregos;
     }
 
-    public ArrayList<Permissao> getPermissoes() {
+    public List<Permissao> getPermissoes() {
         return permissoes;
     }
 }

@@ -1,7 +1,8 @@
 package com.github.samueljealves.ufg.poo.t09;
 import java.util.ArrayList;
+import java.util.List;
 
-    public class CaixeiroTest {
+public class CaixeiroTest {
 
         public static void main(String[] args) {
             CaixeiroViajante caixeiro = new CaixeiroViajante();
@@ -23,7 +24,7 @@ import java.util.ArrayList;
             caixeiro.adicionarViagem(viagem1);
 
 
-            ArrayList<Viagem> todasViagens = caixeiro.getViagens();
+            List<Viagem> todasViagens = caixeiro.getViagens();
             for (Viagem viagem : todasViagens) {
                 System.out.println("Viagem:");
                 for (String cidade : viagem.getCidades()) {

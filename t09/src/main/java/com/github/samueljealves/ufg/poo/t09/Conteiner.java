@@ -1,10 +1,11 @@
 package com.github.samueljealves.ufg.poo.t09;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Conteiner extends Elemento{
 
-    public ArrayList<Elemento> elementos;
+    public List<Elemento> elementos;
 
     public Conteiner() {
         this.elementos = new ArrayList<Elemento>();
@@ -17,7 +18,7 @@ public class Conteiner extends Elemento{
     public void removerElementos(Elemento elemento){
         elementos.remove(elemento);
     }
-    public ArrayList<Elemento> getElementos() {
+    public List<Elemento> getElementos() {
         return elementos;
     }
 }

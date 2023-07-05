@@ -2,10 +2,11 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Pais {
 
-    public ArrayList<Cidade> cidades;
+    public List<Cidade> cidades;
     public Cidade capital;
 
 
@@ -17,7 +18,7 @@ public class Pais {
         cidades.add(cidade);
     }
 
-    public ArrayList<Cidade> getCidades() {
+    public List<Cidade> getCidades() {
         return cidades;
     }
     public Cidade getCapital() {

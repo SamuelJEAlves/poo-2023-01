@@ -2,12 +2,13 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Empresa {
 
     private String nome;
-    public ArrayList<Emprego> empregos;
-    public ArrayList<Pessoa> pessoas;
+    public List<Emprego> empregos;
+    public List<Pessoa> pessoas;
 
     public Empresa(String nome) {
         this.nome = nome;
@@ -31,7 +32,7 @@ public class Empresa {
         empregos.remove(emprego);
     }
 
-    public ArrayList<Emprego> getEmpregos() {
+    public List<Emprego> getEmpregos() {
         return empregos;
     }
 
@@ -43,7 +44,7 @@ public class Empresa {
         pessoas.remove(pessoa);
     }
 
-    public ArrayList<Pessoa> getPessoas() {
+    public List<Pessoa> getPessoas() {
         return pessoas;
     }
 }

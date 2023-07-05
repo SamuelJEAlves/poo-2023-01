@@ -1,10 +1,11 @@
 package com.github.samueljealves.ufg.poo.t08;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Arquivo {
 
-    public ArrayList<Permissao> permissoes;
+    public List<Permissao> permissoes;
     private String nome;
 
     public Arquivo(String nome) {
@@ -20,7 +21,7 @@ public class Arquivo {
         permissoes.add(permissao);
     }
 
-    public ArrayList<Permissao> getPermissoes() {
+    public List<Permissao> getPermissoes() {
         return permissoes;
     }
 

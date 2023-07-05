@@ -1,9 +1,10 @@
 package com.github.samueljealves.ufg.poo.t11;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Lanchonete {
 
-    private ArrayList<Funcionario> funcionarios;
+    private List<Funcionario> funcionarios;
 
     public Lanchonete() {
         this.funcionarios = new ArrayList<Funcionario>();

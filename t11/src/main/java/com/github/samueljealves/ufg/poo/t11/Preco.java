@@ -1,11 +1,11 @@
 package com.github.samueljealves.ufg.poo.t11;
 
-public class Preço {
+public class Preco {
 
     private int valor;
     private String moeda;
 
-    public Preço(int valor, String moeda) {
+    public Preco(int valor, String moeda) {
         this.valor = valor;
         this.moeda = moeda;
     }

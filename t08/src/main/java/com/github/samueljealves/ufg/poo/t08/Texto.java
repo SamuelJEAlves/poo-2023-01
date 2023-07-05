@@ -2,9 +2,10 @@ package com.github.samueljealves.ufg.poo.t08;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Texto {
-    public ArrayList<Paragrafo> paragrafos;
+    public List<Paragrafo> paragrafos;
 
     public Texto() {
         this.paragrafos = new ArrayList<Paragrafo>();
@@ -18,7 +19,7 @@ public class Texto {
         paragrafos.remove(paragrafo);
     }
 
-    public ArrayList<Paragrafo> getParagrafos() {
+    public List<Paragrafo> getParagrafos() {
         return paragrafos;
     }
 

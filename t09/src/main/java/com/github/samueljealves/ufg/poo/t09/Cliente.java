@@ -1,11 +1,12 @@
 package com.github.samueljealves.ufg.poo.t09;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cliente {
 
     private String nome;
-    private ArrayList<Transacao> transacoes;
+    private List<Transacao> transacoes;
 
     public Cliente(String nome) {
         this.nome = nome;
@@ -24,7 +25,7 @@ public class Cliente {
         transacoes.add(transacao);
     }
 
-    public ArrayList<Transacao> getTransacoes() {
+    public List<Transacao> getTransacoes() {
         return transacoes;
     }
 }

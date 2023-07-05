@@ -1,11 +1,12 @@
 package com.github.samueljealves.ufg.poo.t11;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Carne {
 
     private String compra;
-    private ArrayList<Produto> produtos;
-    private ArrayList<Prestacao> prestacoes;
+    private List<Produto> produtos;
+    private List<Prestacao> prestacoes;
 
     public Carne(String compra) {
         this.compra = compra;

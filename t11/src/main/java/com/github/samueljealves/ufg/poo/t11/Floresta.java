@@ -1,10 +1,11 @@
 package com.github.samueljealves.ufg.poo.t11;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Floresta {
 
-    private ArrayList<Arvore> arvores;
+    private List<Arvore> arvores;
 
     public Floresta() {
         arvores = new ArrayList<Arvore>();
@@ -14,7 +15,7 @@ public class Floresta {
         arvores.add(arvore);
     }
 
-    public ArrayList<Arvore> getArvores() {
+    public List<Arvore> getArvores() {
         return arvores;
     }
 }

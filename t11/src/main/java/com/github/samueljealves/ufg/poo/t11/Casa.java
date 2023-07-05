@@ -1,14 +1,15 @@
 package com.github.samueljealves.ufg.poo.t11;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Casa {
 
-    private ArrayList<Garagem> garagens;
-    private ArrayList<Sala> salas;
-    private ArrayList<Area> areas;
-    private ArrayList<Quarto> quartos;
-    private ArrayList<Banheiro> banheiros;
+    private List<Garagem> garagens;
+    private List<Sala> salas;
+    private List<Area> areas;
+    private List<Quarto> quartos;
+    private List<Banheiro> banheiros;
 
     public Casa() {
         this.garagens = new ArrayList<Garagem>();
@@ -18,23 +19,23 @@ public class Casa {
         this.banheiros = new ArrayList<Banheiro>();
     }
 
-    public ArrayList<Garagem> getGaragens() {
+    public List<Garagem> getGaragens() {
         return garagens;
     }
 
-    public ArrayList<Sala> getSalas() {
+    public List<Sala> getSalas() {
         return salas;
     }
 
-    public ArrayList<Area> getAreas() {
+    public List<Area> getAreas() {
         return areas;
     }
 
-    public ArrayList<Quarto> getQuartos() {
+    public List<Quarto> getQuartos() {
         return quartos;
     }
 
-    public ArrayList<Banheiro> getBanheiros() {
+    public List<Banheiro> getBanheiros() {
         return banheiros;
     }
 }

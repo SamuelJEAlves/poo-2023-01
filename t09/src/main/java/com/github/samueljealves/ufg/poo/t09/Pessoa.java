@@ -1,12 +1,13 @@
 package com.github.samueljealves.ufg.poo.t09;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Pessoa {
 
     public String nome;
     public int idade;
-    public ArrayList<Habito> habitos;
+    public List<Habito> habitos;
 
     public Pessoa(String nome, int idade) {
         this.nome = nome;
@@ -38,7 +39,7 @@ public class Pessoa {
         habitos.remove(habito);
     }
 
-    public ArrayList<Habito> getHabitos() {
+    public List<Habito> getHabitos() {
         return habitos;
     }
 }
