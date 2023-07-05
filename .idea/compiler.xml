@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="t10" />
-        <module name="t12" />
-        <module name="t11" />
-        <module name="t14" />
-        <module name="t13" />
-        <module name="t16" />
-        <module name="t15" />
-        <module name="t07" />
-        <module name="t18" />
-        <module name="t17" />
         <module name="t09" />
-        <module name="t08" />
+        <module name="t18" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="t07" target="1.6" />
+      <module name="t08" target="1.5" />
+      <module name="t10" target="1.5" />
+      <module name="t11" target="1.8" />
+      <module name="t12" target="1.5" />
+      <module name="t13" target="1.5" />
+      <module name="t14" target="1.5" />
+      <module name="t15" target="1.5" />
+      <module name="t16" target="1.5" />
+      <module name="t17" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
