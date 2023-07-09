@@ -6,7 +6,6 @@ com\github\samueljealves\ufg\poo\t11\Produto.class
 com\github\samueljealves\ufg\poo\t11\Folha.class
 com\github\samueljealves\ufg\poo\t11\Armario.class
 com\github\samueljealves\ufg\poo\t11\JanelaComVidro.class
-com\github\samueljealves\ufg\poo\t11\Preço.class
 com\github\samueljealves\ufg\poo\t11\Livro.class
 com\github\samueljealves\ufg\poo\t11\CD.class
 com\github\samueljealves\ufg\poo\t11\Prateleira.class
@@ -21,6 +20,7 @@ com\github\samueljealves\ufg\poo\t11\Floresta.class
 com\github\samueljealves\ufg\poo\t11\Banheiro.class
 com\github\samueljealves\ufg\poo\t11\Quarto.class
 com\github\samueljealves\ufg\poo\t11\Vidro.class
+com\github\samueljealves\ufg\poo\t11\Preco.class
 com\github\samueljealves\ufg\poo\t11\TipoFolha.class
 com\github\samueljealves\ufg\poo\t11\Casa.class
 com\github\samueljealves\ufg\poo\t11\Compartimento.class

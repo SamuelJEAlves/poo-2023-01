@@ -1,0 +1,3 @@
+Restrição {ordered}? Como aplicar? É usada com array apenas?
+
+Estrutura de dados mais complexas em Java possuem atalhos facilitadores? Bibliotecas prontas? Ou é na mão como em C
