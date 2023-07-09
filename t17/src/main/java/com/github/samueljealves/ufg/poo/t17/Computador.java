@@ -1,7 +1,11 @@
 package com.github.samueljealves.ufg.poo.t17;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Computador {
 
+    private List<Dispositivo> dispositivos;
     private Teclado teclado;
     private Mouse mouse;
     private PlacaMae placaMae;
@@ -10,6 +14,7 @@ public class Computador {
         this.teclado = teclado;
         this.mouse = mouse;
         this.placaMae = placaMae;
+        this.dispositivos = new ArrayList<>();
     }
 
     public Teclado getTeclado() {

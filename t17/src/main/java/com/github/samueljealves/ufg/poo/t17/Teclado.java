@@ -1,6 +1,6 @@
 package com.github.samueljealves.ufg.poo.t17;
 
-public class Teclado {
+public class Teclado extends Dispositivo{
 
     private String marca;
     private String modelo;

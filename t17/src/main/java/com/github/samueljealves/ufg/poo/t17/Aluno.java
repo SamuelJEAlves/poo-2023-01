@@ -1,2 +1,4 @@
-package com.github.samueljealves.ufg.poo.t17;public class Aluno {
+package com.github.samueljealves.ufg.poo.t17;
+
+public class Aluno {
 }

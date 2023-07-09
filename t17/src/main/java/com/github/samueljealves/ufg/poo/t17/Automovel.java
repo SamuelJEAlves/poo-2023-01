@@ -1,2 +1,4 @@
-package com.github.samueljealves.ufg.poo.t17;public class Automovel {
+package com.github.samueljealves.ufg.poo.t17;
+
+public class Automovel {
 }

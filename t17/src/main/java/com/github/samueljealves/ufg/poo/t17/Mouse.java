@@ -1,6 +1,6 @@
 package com.github.samueljealves.ufg.poo.t17;
 
-public class Mouse {
+public class Mouse extends Dispositivo{
 
     private String marca;
     private String modelo;

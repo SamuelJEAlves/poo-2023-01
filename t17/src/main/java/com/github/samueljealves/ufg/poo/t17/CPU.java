@@ -1,6 +1,6 @@
 package com.github.samueljealves.ufg.poo.t17;
 
-public class CPU {
+public class CPU extends Dispositivo{
 
     private Memoria memoria;
     private PlacaMae placaMae;

@@ -1,6 +1,6 @@
 package com.github.samueljealves.ufg.poo.t17;
 
-public class Memoria {
+public class Memoria extends Dispositivo{
 
     private String velocidade;
     private String tamanho;
