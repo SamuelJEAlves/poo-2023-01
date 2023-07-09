@@ -1,0 +1,7 @@
+Quais os três slides que você considera os mais complexos?
+
+
+Quais são suas dúvidas?
+
+flushBuffer() ??
+
