@@ -1,2 +1,4 @@
-package com.github.samueljealves.ufg.poo.t18;public class Partida {
+package com.github.samueljealves.ufg.poo.t18;
+
+public class Partida {
 }

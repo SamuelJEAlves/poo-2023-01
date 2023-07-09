@@ -1,2 +1,4 @@
-package com.github.samueljealves.ufg.poo.t18;public class Peca {
+package com.github.samueljealves.ufg.poo.t18;
+
+public class Peca {
 }
