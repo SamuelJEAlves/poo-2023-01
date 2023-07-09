@@ -1,0 +1,12 @@
+Quais os assuntos dos três slides que você considera os mais complexos?
+
+Polimorfismo?
+Persistência?
+Métodos OO?
+
+Quais são suas dúvidas?
+
+Exemplos práticos de encapsulamento, como fazer, padrões, boas práticas. Quero uma luz!
+Exemplos práticos de interface, como fazer, padrões, boas práticas, como aliar ao encapsulamento. Quero uma luz!
+Exemplos práticos de polimorfismo, como fazer, padrões, boas práticas. Quero uma luz!
+O que são métodos OO, o que cada um instrui a fazer?
