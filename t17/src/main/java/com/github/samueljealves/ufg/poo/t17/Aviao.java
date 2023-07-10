@@ -8,9 +8,9 @@ public class Aviao {
     private List<Voo> voos;
     private List<Lugar> lugares;
 
-    public Aviao() {
+    public Aviao(List<Lugar> lugares) {
         this.voos = new ArrayList<>();
-        this.lugares = new ArrayList<>();
+        this.lugares =  lugares;
     }
 
     public List<Voo> getVoos() {
