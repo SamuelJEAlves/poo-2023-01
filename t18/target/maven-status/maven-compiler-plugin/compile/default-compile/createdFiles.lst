@@ -1,6 +1,13 @@
-com\github\samueljealves\ufg\poo\t18\Lance.class
+com\github\samueljealves\ufg\poo\t18\Bispo.class
+com\github\samueljealves\ufg\poo\t18\Peao.class
 com\github\samueljealves\ufg\poo\t18\Partida.class
-com\github\samueljealves\ufg\poo\t18\Jogador.class
+com\github\samueljealves\ufg\poo\t18\Cavalo.class
 com\github\samueljealves\ufg\poo\t18\Peca.class
-com\github\samueljealves\ufg\poo\t18\Posicao.class
 com\github\samueljealves\ufg\poo\t18\Tabuleiro.class
+com\github\samueljealves\ufg\poo\t18\PartidaImortalMain.class
+com\github\samueljealves\ufg\poo\t18\Lance.class
+com\github\samueljealves\ufg\poo\t18\Rainha.class
+com\github\samueljealves\ufg\poo\t18\Jogador.class
+com\github\samueljealves\ufg\poo\t18\Rei.class
+com\github\samueljealves\ufg\poo\t18\Posicao.class
+com\github\samueljealves\ufg\poo\t18\Torre.class

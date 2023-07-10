@@ -1,5 +1,4 @@
 com\github\samueljealves\ufg\poo\t17\Lanchonete.class
-com\github\samueljealves\ufg\poo\t17\Sanduíche.class
 com\github\samueljealves\ufg\poo\t17\Item.class
 com\github\samueljealves\ufg\poo\t17\Mensal.class
 com\github\samueljealves\ufg\poo\t17\Trabalhador.class
@@ -28,6 +27,7 @@ com\github\samueljealves\ufg\poo\t17\Convite.class
 com\github\samueljealves\ufg\poo\t17\Passageiro.class
 com\github\samueljealves\ufg\poo\t17\Advogado.class
 com\github\samueljealves\ufg\poo\t17\Garçonete.class
+com\github\samueljealves\ufg\poo\t17\Sanduiche.class
 com\github\samueljealves\ufg\poo\t17\Tripulacao.class
 com\github\samueljealves\ufg\poo\t17\Aeroporto.class
 com\github\samueljealves\ufg\poo\t17\Danca.class
